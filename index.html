@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="app">
+        <form class="formulario" action="">
+            <h1> {{ message }}</h1>
+            <div class="nombrecompleto">
+                <label class="nombre" for="nombre">Nombre(s):</label>
+                <input class="nombre" id="nombre" type="text"/>
+                <label class="nombre" for="apellido_pat">Apellido Paterno:</label>
+                <input class="nombre" id="apellido_pat" type="text" />
+                <label class="nombre" for="apellido_mat">Apellido Materno:</label>
+                <input class="nombre" id="apellido_mat" type="text" />  
+            </div>
+            <div class="datos">
+                <label for="select">Lugar donde recide</label>
+                <select id="select">
+                    <option value="0">-- selecciona --</option>
+                    <option value="Cancún">Cancún</option>
+                    <option value="Playa">Playa</option>
+                    <option value="Tulúm">Tulúm</option>
+                    <option value="Carrillo">Carrillo Puerto</option>
+                    <option value="Morelos">Puerto Morelos</option>
+                    <option value="Bacalar">Bacalar</option>
+                </select>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="date">
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

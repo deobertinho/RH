@@ -1,0 +1,35 @@
+.nombrecompleto {
+  margin: 10px;
+  border: solid;
+  width: 300px;
+}
+
+.nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.datos {
+  margin: 10px;
+  border: solid;
+  width: 300px;
+}
+
+label {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+select {
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
